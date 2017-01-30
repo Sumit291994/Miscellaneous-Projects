@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".CameraPhotoCapture" >
+    
+    <Button android:text="Capture Photo"
+            android:id="@+id/button1"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" />
+    
+    <TextView
+        android:id="@+id/imageDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/photo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp" />
+
+    <ImageView
+        android:id="@+id/showImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/imageDetails"
+        />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/showImg"
+        android:layout_marginTop="73dp"
+        android:layout_toRightOf="@+id/imageDetails"
+        android:src="@android:drawable/bottom_bar" />
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+client
+-socket creation
+-connect
+-send
+-receive
+
+
+
+server
+- socket creation
+- port binding
+- listening mode 
+- accepting connection
+- send
+- receive
+- close

@@ -1,0 +1,9 @@
+// imsInfo.txt images
+
+o dodo0.bmp
+n dodo.bmp 0 29
+
+
+
+    
+
